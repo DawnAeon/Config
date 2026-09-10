@@ -1,0 +1,17 @@
+//----------------------------------------------------------------------------------------
+// Original Link: https://cloudproxy.setpac.ge.com/pac.pac
+// China PAC: https://store.swg.prismaaccess.cn/pac/pppqadaqpp/76130af4-69e0-4d5b-a715-4fa0b01d98d2_9978515c-5835-45d2-947e-1c6f2c4382cb.pac
+//----------------------------------------------------------------------------------------
+// Known Proxy Ports
+    //PITC-Zscaler-ASPAC-Singapore3PR.proxy.corporate.ge.com:80 
+    //PITC-Zscaler-China-Shanghai-IDC.proxy.corporate.ge.com:80
+    //PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80
+    //PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+    //PITC-Zscaler-AmericasZ.proxy.corporate.ge.com:80
+    //PITC-Zscaler-EMEA-Amsterdam3PR.proxy.corporate.ge.com:80
+    //PITC-Zscaler-EMEA-London3PR.proxy.corporate.ge.com:80
+    //PITC-Zscaler-Global-3PRZ.proxy.corporate.ge.com:80
+    //PITC-Zscaler-Global-ZEN.proxy.corporate.ge.com:80
+//Config
+    // Remove SendtoZen github.com
+//----------------------------------------------------------------------------------------

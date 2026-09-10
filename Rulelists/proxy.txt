@@ -1,0 +1,47 @@
+# Foreign
+DOMAIN,podcasts.apple.com
+DOMAIN,open.spotify.com
+DOMAIN-SUFFIX,danwang.co
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,filmot.com
+DOMAIN-SUFFIX,folivora.ai
+DOMAIN-SUFFIX,kau.sh
+DOMAIN-SUFFIX,kavin.rocks
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,lmarena.ai
+DOMAIN-SUFFIX,mqnpsfr.cc
+DOMAIN-SUFFIX,phenompeople.com
+DOMAIN-SUFFIX,posthog.com
+DOMAIN-SUFFIX,wasimaster.me
+DOMAIN-SUFFIX,zmo.ai
+
+# Podcast
+DOMAIN-SUFFIX,pdst.fm
+DOMAIN-SUFFIX,podtrac.com
+DOMAIN-SUFFIX,pscrb.fm
+DOMAIN-SUFFIX,simplecastaudio.com
+DOMAIN-SUFFIX,tritondigital.com
+DOMAIN-SUFFIX,vpixl.com
+
+# CDN
+DOMAIN-SUFFIX,substackcdn.com
+DOMAIN-SUFFIX,privacyredirect.com
+DOMAIN-SUFFIX,privadency.com
+
+# Novel
+DOMAIN-SUFFIX,69shuba.com
+DOMAIN-SUFFIX,hetushu.com
+DOMAIN-SUFFIX,sudugu.org
+
+# Other
+DOMAIN-SUFFIX,fuliba.net
+DOMAIN-SUFFIX,deepseek.com
+
+# sjs
+DOMAIN-SUFFIX,47447.net
+DOMAIN-SUFFIX,51cg1.com
+DOMAIN-SUFFIX,xsijishe.net
+
+# Network
+DOMAIN-SUFFIX,xftld.org
+DOMAIN-SUFFIX,y-too.com
