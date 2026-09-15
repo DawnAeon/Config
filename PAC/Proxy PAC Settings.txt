@@ -3,7 +3,8 @@
 // China PAC: https://store.swg.prismaaccess.cn/pac/pppqadaqpp/76130af4-69e0-4d5b-a715-4fa0b01d98d2_9978515c-5835-45d2-947e-1c6f2c4382cb.pac
 //----------------------------------------------------------------------------------------
 // Known Proxy Ports
-    //PITC-Zscaler-ASPAC-Singapore3PR.proxy.corporate.ge.com:80 
+    //PITC-Zscaler-ASPAC-Singapore3PR.proxy.corporate.ge.com:80
+    //PITC-Zscaler-ASPAC-Tokyo3PR.proxy.corporate.ge.com:80
     //PITC-Zscaler-China-Shanghai-IDC.proxy.corporate.ge.com:80
     //PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80
     //PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
@@ -15,3 +16,36 @@
 //Config
     // Remove SendtoZen github.com
 //----------------------------------------------------------------------------------------
+
+```
+$proxies = @(
+"PITC-Zscaler-ASPAC-Singapore3PR.proxy.corporate.ge.com",
+"PITC-Zscaler-China-Shanghai-IDC.proxy.corporate.ge.com",
+"PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com",
+"PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com",
+"PITC-Zscaler-AmericasZ.proxy.corporate.ge.com",
+"PITC-Zscaler-EMEA-Amsterdam3PR.proxy.corporate.ge.com",
+"PITC-Zscaler-EMEA-London3PR.proxy.corporate.ge.com",
+"PITC-Zscaler-Global-3PRZ.proxy.corporate.ge.com",
+"PITC-Zscaler-Global-ZEN.proxy.corporate.ge.com"
+)
+ 
+foreach ($p in $proxies) {
+  Write-Host "===== $p ====="
+  $sw = [System.Diagnostics.Stopwatch]::StartNew()
+  try {
+    $tcp = New-Object System.Net.Sockets.TcpClient
+    $iar = $tcp.BeginConnect($p, 80, $null, $null)
+    $success = $iar.AsyncWaitHandle.WaitOne(3000, $false)
+    $sw.Stop()
+    if ($success -and $tcp.Connected) {
+      Write-Host "TCP连接成功: $($sw.ElapsedMilliseconds) ms"
+    } else {
+      Write-Host "连接超时"
+    }
+    $tcp.Close()
+  } catch {
+    Write-Host "失败: $_"
+  }
+}
+```
