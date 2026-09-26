@@ -30,24 +30,29 @@ DOMAIN-SUFFIX,qianwen.com
 DOMAIN,images.bakstotre.com
 DOMAIN-SUFFIX,1000h.org
 DOMAIN-SUFFIX,huangjiwei.com
+DOMAIN-SUFFIX,jesor.me
+DOMAIN-SUFFIX,ai-163cdn.com
+DOMAIN-SUFFIX,kwimgs.com
 
-# SJS
+# NSFW
 DOMAIN-SUFFIX,sjs47.net
 DOMAIN-SUFFIX,xsijishe.ink
+DOMAIN-SUFFIX,doudou520.online
 
-#Movie
+# Movie
 DOMAIN-SUFFIX,ddys.app
 DOMAIN-SUFFIX,ddys.ai
 DOMAIN-SUFFIX,findno.tv
-DOMAIN-SUFFIX,novipnoad.org
+DOMAIN-SUFFIX,novipnoad.net
+DOMAIN-SUFFIX,novipnoad.uk
 DOMAIN-SUFFIX,novipnoad.uk
 DOMAIN-SUFFIX,novipnoad.ca
-DOMAIN-SUFFIX,novipnoad.xyz
 DOMAIN-SUFFIX,libvio.host
-DOMAIN-SUFFIX,libvio.mov
+DOMAIN-SUFFIX,libvio.to
 DOMAIN-SUFFIX,libvios.com
 DOMAIN-SUFFIX,libhd.com
 DOMAIN-SUFFIX,libviobd.com
+DOMAIN-SUFFIX,cz01.tv
 DOMAIN-SUFFIX,4kcz.com
 DOMAIN-SUFFIX,czzy.top
 DOMAIN-SUFFIX,cz4k.com
@@ -55,11 +60,11 @@ DOMAIN-SUFFIX,vidhub1.cc
 DOMAIN-SUFFIX,vidhub2.top
 DOMAIN-SUFFIX,vidhub.cc
 DOMAIN-SUFFIX,vidhub.tv
-DOMAIN-SUFFIX,gazes.store
-DOMAIN-SUFFIX,gaze.red
-DOMAIN-SUFFIX,gazes.top
-DOMAIN-SUFFIX,gaze.show
-DOMAIN-SUFFIX,gazes.host
+DOMAIN-SUFFIX,cilixiong.org
+DOMAIN-SUFFIX,cilixiong.cc
+DOMAIN-SUFFIX,cilixiong.uk
+DOMAIN-SUFFIX,cilixiong.xyz
+#DOMAIN-SUFFIX,gazes.store
 
 # Software
 DOMAIN-SUFFIX,ax1x.com
@@ -92,7 +97,3 @@ DOMAIN-SUFFIX,sectigo.com
 DOMAIN-SUFFIX,gh-proxy.com
 DOMAIN-SUFFIX,gh-proxy.org
 DOMAIN-SUFFIX,ghfast.top
-
-
-
-

@@ -1,0 +1,64 @@
+{
+  "timeStamp": 1790406323353,
+  "version": "1.75.0",
+  "userSettings": {
+    "advancedUserEnabled": true,
+    "contextMenuEnabled": false,
+    "externalLists": "https://github.com/DandelionSprout/adfilt/raw/master/AnnoyancesList\nhttps://github.com/DandelionSprout/adfilt/raw/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://github.com/DandelionSprout/adfilt/raw/master/SocialShareList.txt\nhttps://github.com/YujiaCheng1996/adblockfilters/raw/main/rules/adblockfilterslite.txt\nhttps://github.com/cbuijs/hagezi/raw/main/combo/ultimate-tif-mini/domains.top-n.adblock\nhttps://github.com/qq5460168/666/raw/master/rules.txt\nhttps://github.com/yokoffing/filterlists/raw/main/annoyance_list.txt\nhttps://github.com/yokoffing/filterlists/raw/main/block_third_party_fonts.txt\nhttps://github.com/yokoffing/filterlists/raw/main/privacy_essentials.txt\nhttps://pub-d303b9085c0b41b5aa749fc74609d4d9.r2.dev/bpc-paywall-filter.txt",
+    "firewallPaneMinimized": false,
+    "importedLists": [
+      "https://github.com/DandelionSprout/adfilt/raw/master/AnnoyancesList",
+      "https://github.com/DandelionSprout/adfilt/raw/master/BrowseWebsitesWithoutLoggingIn.txt",
+      "https://github.com/DandelionSprout/adfilt/raw/master/SocialShareList.txt",
+      "https://github.com/YujiaCheng1996/adblockfilters/raw/main/rules/adblockfilterslite.txt",
+      "https://github.com/cbuijs/hagezi/raw/main/combo/ultimate-tif-mini/domains.top-n.adblock",
+      "https://github.com/qq5460168/666/raw/master/rules.txt",
+      "https://github.com/yokoffing/filterlists/raw/main/annoyance_list.txt",
+      "https://github.com/yokoffing/filterlists/raw/main/block_third_party_fonts.txt",
+      "https://github.com/yokoffing/filterlists/raw/main/privacy_essentials.txt",
+      "https://pub-d303b9085c0b41b5aa749fc74609d4d9.r2.dev/bpc-paywall-filter.txt"
+    ],
+    "popupPanelSections": 31,
+    "showIconBadge": false
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "helium-annoyances",
+    "helium-unbreak",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-quick-fixes",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "adguard-spyware-url",
+    "block-lan",
+    "plowe-0",
+    "fanboy-cookiemonster",
+    "ublock-cookies-easylist",
+    "fanboy-social",
+    "easylist-chat",
+    "easylist-newsletters",
+    "easylist-notifications",
+    "easylist-annoyances",
+    "ublock-annoyances",
+    "CHN-0",
+    "https://github.com/yokoffing/filterlists/raw/main/block_third_party_fonts.txt",
+    "https://github.com/DandelionSprout/adfilt/raw/master/BrowseWebsitesWithoutLoggingIn.txt",
+    "https://github.com/DandelionSprout/adfilt/raw/master/SocialShareList.txt",
+    "https://github.com/yokoffing/filterlists/raw/main/privacy_essentials.txt",
+    "https://github.com/yokoffing/filterlists/raw/main/annoyance_list.txt",
+    "https://github.com/YujiaCheng1996/adblockfilters/raw/main/rules/adblockfilterslite.txt"
+  ],
+  "hiddenSettings": {
+    "filterAuthorMode": true
+  },
+  "whitelist": [
+    "developer.puter.com"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
+  "userFilters": "51cg1.com##.horizontal-block, .txt-apps, blockquote, #body-bottom > .container, .post > .post-content > div:nth-of-type(4), .table-responsive, .content-tabs, #foot-menu\naxutongxue.cn,axutongxue.net,axutongxue.com##div:last-child, div:nth-child(8), #aysduifg\nchat.z.ai##.mx-auto.max-w-\\[946px\\].w-full.relative, .pt-2.p-4\nclaude.ai##.flex-col.flex.top-0.inset-x-0.absolute\ndeveloper.mozilla.org##.top-banner, .fallback, .article-footer\ndouban.com###landing-bar\nfuliba.net,f.uliba.net,fuliba2023.net,fuliba2024.net##.item, .shares, .style02, .no_webshot, .post-actions, #focusslide, section.container:nth-child(6) > div.content-wrap:first-child > div.content > a:first-child\nfuliba123.net##.auto-ad-url, .text-center, .my-4, .mx-2, .mb-n4, .mb-md-n5, .login-tips\nghxi.com##.entry-action, .comment-form, .comment-respond, .entry-copyright, .vip-center-vip-show, .vipdown-form, .wpcom_ad_wrap, .ad_single_1\ngrok.com##.hover\\:scale-\\[1\\.01\\].dark.gap-4.flex.text-left.group.rounded-3xl.min-\\[384px\\]\\:min-w-52.min-\\[384px\\]\\:w-max.border-card.cursor-pointer.border.text-white.text-xs.bg-black.w-\\[calc\\(100\\%-16px\\)\\].items-center.py-4.px-5.\\@sm\\:mb-0.\\@sm\\:end-2.\\@sm\\:bottom-2.\\@sm\\:fixed.mb-2.relative.upsell-small\nmoretothat.com##.et_bloom_form_container_wrapper, .clearfix\nroadmap.sh##div.bg-gray-50.pt-4.sm\\:pt-12:nth-child(5) > div.container.relative.\\!max-w-\\[1000px\\]:first-child > astro-island:last-child\nsspai.com##.el-row, .ss__feature__popover, .ss-comment-block, .comment-reply-wrapper, .rightSideTop\nt.me##.tgme_page_widget_actions_wrap, .stuck, .tgme_head_wrap\nutgd.net##.n-notification, .__notification-ug9c1u-i, .n-notification--closable, .n-notification--show-avatar\nv2ex.com###Rightbar > div.box:nth-child(2)\nweb.baimiaoapp.com##.announcement\nwiki.mbalib.com##.appxb-con, .unfold, .column-immobilization-top, column-one, #ad-fold > img\nwjx.cn###divAward, .divheader"
+}

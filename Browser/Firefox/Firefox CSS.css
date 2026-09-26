@@ -1,0 +1,41 @@
+/* ─── 彻底隐藏右键菜单中的“查看页面源代码” ─── */
+#context-viewsource {
+  display: none !important;
+}
+
+/* ─── 彻底隐藏右键菜单中的“检查元素” ─── */
+#context-inspect {
+  display: none !important;
+}
+
+@-moz-document url("about:home"), url("about:newtab"), url(about:privatebrowsing) {
+  body{
+    background-image: url("https://bing.img.run/1920x1080.php") !important; /* 修改主页和新标签页背景为Bing日图 */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position-x: center !important;
+    background-position-y: bottom !important;
+  }
+/* 半透明搜索框 */
+.search-box,
+#search-box,
+input[type="search"],
+input[type="text"] {
+    opacity: 0.7 !important;
+    filter: opacity(0.7) !important;
+}
+/* 移动LOGO和Firefox到左上角 */
+.logo-and-wordmark {
+position: fixed !important;
+top: 15px !important;
+left: 15px !important;
+margin: 0 !important;
+transform: none !important;
+z-index: 1000 !important;
+display: flex !important;
+flex-direction: row !important;
+align-items: center !important;
+}
+/* 这个别删 */
+}

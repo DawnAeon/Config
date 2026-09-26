@@ -1,0 +1,213 @@
+{
+  "policies": {
+    "AIControls": {
+      "Default": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "Translations": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "PDFAltText": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "SmartTabGroups": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "LinkPreviewKeyPoints": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "SidebarChatbot": {
+        "Value": "available",
+        "Locked": false
+      },
+      "SmartWindow": {
+        "Value": "available",
+        "Locked": false
+      }
+    },
+    "Authentication": {
+      "SPNEGO": ["ge.com", "gevernova.com","gevernova.net"],
+      "Delegated": ["ge.com", "gevernova.com","gevernova.net"],
+      "NTLM": ["ge.com", "gevernova.com","gevernova.net"],
+      "AllowNonFQDN": {
+        "SPNEGO": true,
+        "NTLM": true
+      },
+      "AllowProxies": {
+        "SPNEGO": true,
+        "NTLM": false
+      },
+      "Locked": false,
+      "PrivateBrowsing": true
+    },
+    "AutoLaunchProtocolsFromOrigins": [{
+        "protocol": "spotify",
+        "allowed_origins": [
+          "https://open.spotify.com",
+          "https://embed.spotify.com"
+      ]
+    }],
+    "CaptivePortal": false,
+    "Containers": {
+      "Default": [
+        {
+          "name": "W",
+          "icon": "briefcase",
+          "color": "green"
+        },
+        {
+          "name": "P",
+          "icon": "tree",
+          "color": "blue"
+        }
+      ]
+    },
+    "DefaultBrowserSettingEnabled": false,
+    "DefaultSerialGuardSetting": 3,
+    "DisableAccounts": true,
+    "DisableDefaultBrowserAgent": true,
+    "DisableDeveloperTools": true,
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisableLaunchOnLogin": false,
+    "DisableMasterPasswordCreation": true,
+    "DisableTelemetry": true,
+    "DisplayMenuBar": "default-off",
+    "DontCheckDefaultBrowser": true,
+    "EncryptedMediaExtensions": {
+      "Enabled": false,
+      "Locked": false
+    },
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+      },
+      "addon@darkreader.org": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi"
+      },
+      "{a8cf72f7-09b7-4cd4-9aaa-7a023bf09916}": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/besttimetracker/latest.xpi"
+      },
+      "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/violentmonkey/latest.xpi"
+      },
+      "drag_to_privew@uxer": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/peek_pop/latest.xpi"
+      },
+      "{d7742d87-e61d-4b78-b8a1-b469842139fa}": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/vimium-ff/latest.xpi"
+      },
+      "en-US-mozilla@dictionaries.addons.mozilla.org": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/english-us-dictionary/latest.xpi"
+      },
+      "ATBC@EasonWong": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/adaptive-tab-bar-colour/latest.xpi"
+      }
+    },
+    "ExtensionUpdate": true,
+    "FirefoxHome": {
+      "Search": true,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Stories": false,
+      "SponsoredStories": false,
+      "Weather": false,
+      "Widgets": {
+        "Enabled": false
+      },
+      "Locked": false
+    },
+    "FirefoxSuggest": {
+      "WebSuggestions": true,
+      "SponsoredSuggestions": false,
+      "OnlineEnabled": true,
+      "Locked": false
+    },
+    "HardwareAcceleration": true,
+    "HttpsOnlyMode": "enabled",
+    "IPProtectionAvailable": false,
+    "LocalNetworkAccess": {
+      "Enabled": true,
+      "BlockTrackers": true,
+      "EnablePrompting": true,
+      "SkipDomains": [
+        "*.devices.local"
+      ],
+      "Locked": false
+    },
+    "NetworkPrediction": false ,
+    "NewTabPage": true,
+    "NoDefaultBookmarks": true,
+    "OfferToSaveLoginsDefault": false,
+    "OverrideFirstRunPage": "",
+    "Preferences": {
+      "accessibility.force_disabled": {
+        "Value": 1,
+        "Status": "default"
+      }
+    },
+    "PrimaryPassword": false,
+    "SearchEngines": {
+      "Add": [
+        {
+          "Name": "G",
+          "URLTemplate": "https://www.google.com/search?q={searchTerms}&hl=en&gl=us&pws=0&newwindow=1&gws_rd=cr&safe=off",
+          "Method": "GET",
+          "IconURL": "https://www.google.com/favicon.ico",
+          "Alias": "g",
+          "Description": "Google Search",
+          "SuggestURLTemplate": "https://www.google.com/complete/search?client=chrome&q={searchTerms}"
+        },
+        {
+          "Name": "D",
+          "URLTemplate": "https://lite.duckduckgo.com/lite/?q={searchTerms}+!",
+          "Method": "GET",
+          "IconURL": "https://duckduckgo.com/favicon.ico",
+          "Alias": "d",
+          "Description": "DuckDuckGo - Protection. Privacy. Peace of mind.",
+          "SuggestURLTemplate": "https://www.google.com/complete/search?client=chrome&q={searchTerms}"
+        },
+        {
+          "Name": "D2",
+          "URLTemplate": "https://lite.duckduckgo.com/lite/?q={searchTerms}+!",
+          "Method": "GET",
+          "IconURL": "https://duckduckgo.com/favicon.ico",
+          "Alias": "的",
+          "Description": "DuckDuckGo - Protection. Privacy. Peace of mind.",
+          "SuggestURLTemplate": "https://www.google.com/complete/search?client=chrome&q={searchTerms}"
+        }
+      ],
+      "Default": "G",
+      "PreventInstalls": false,
+      "Remove": ["Amazon.com", "eBay", "Bing", "Wikipedia (en)", "Perplexity", "Google"]
+    },
+    "ShowHomeButton": false,
+    "SkipTermsOfUse": true,
+    "UserMessaging": {
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "UrlbarInterventions": false,
+      "SkipOnboarding": true,
+      "MoreFromMozilla": false,
+      "FirefoxLabs": true,
+      "Locked": false
+    },
+    "VisualSearchEnabled": true,
+    "WindowsSSO": true
+  }
+}

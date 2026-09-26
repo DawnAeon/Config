@@ -1,0 +1,31 @@
+{
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://mail.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://vscode.dev/*"
+    },
+    {
+      "passKeys": "?,t,g",
+      "pattern": "https?://github.com/*"
+    },
+    {
+      "passKeys": "w,o,n,p,m,h,?",
+      "pattern": "https?://www.inoreader.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://slashfeed.app/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://developer.puter.com/*"
+    }
+  ],
+  "newTabDestination": "browserNewTabPage",
+  "searchEngines": "g: https://www.google.com/search?q=%s&hl=en&gl=us&pws=0&newwindow=1&gws_rd=cr&safe=off Google\nd: https://lite.duckduckgo.com/lite/?q=%s+! DuckDuckGo",
+  "settingsVersion": "2.4.2"
+}

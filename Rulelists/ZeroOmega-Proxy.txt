@@ -9,8 +9,9 @@
     ! https://github.com/aglent/autoproxy/blob/master/gfwlist.pac
     ! https://github.com/jnaklaas/blocklists/blob/main/blocklists/google-ultra-strict.txt
 ! Delete google.com.uk blogspot.com.uk
-! `.www` to `.`
-    !  1259 https://github.com/SukkaLab/ruleset.skk.moe/blob/master/List/non_ip/global.conf
+! Delete `www.`
+
+! 1259 https://github.com/SukkaLab/ruleset.skk.moe/blob/master/List/non_ip/global.conf
 ||ac
 ||ai
 ||at
@@ -1270,7 +1271,7 @@
 ||onepluscommunityserver.com
 ||returnyoutubedislikeapi.com
 ||certificate-transparency.org
-    ! https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Spotify/Spotify.list
+! https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Spotify/Spotify.list
 ||audio4-ak-spotify-com.akamaized.net
 ||cdn-spotify-experiments.conductrics.com
 ||heads-ak-spotify-com.akamaized.net
@@ -1296,7 +1297,7 @@
 ||spotifynewsroom.jp
 ||spotilocal.com
 ||tospotify.com
-    ! 829 https://github.com/DustinWin/domain-list-custom/blob/domains/tld-proxy.list
+! 829 https://github.com/DustinWin/domain-list-custom/blob/domains/tld-proxy.list
 ||aaa
 ||aarp
 ||abb
@@ -2040,7 +2041,7 @@
 ||zm
 ||zuerich
 ||zw
-    ! 4400 https://github.com/DustinWin/domain-list-custom/blob/domains/gfw.list
+! 4400 https://github.com/DustinWin/domain-list-custom/blob/domains/gfw.list
 ||000webhost.com
 ||0rz.tw
 ||1-apple.com.tw

@@ -1,7 +1,9 @@
 // Original Link: https://cloudproxy.setpac.ge.com/pac.pac
 // Changes
-// 1. Replace all Proxy to Singapore node
-// 2. Add ad-blocking domains to SendToOtherProxy2, and set Other_Proxy2 to 127.0.0.1:9
+    // 1. Replace all Proxy to Singapore node
+    // 2. Add ad-blocking domains to `SendToOtherProxy2`, and set `Other_Proxy2` to `127.0.0.1:9`
+    // 3. Move `Other_Proxy2` in `function FindProxyForURL(url, host)` to top
+
 //--------------------------GE Standard PAC File------------------------------------------
 // Owner: @CORP PAC Support
 // Template - China
@@ -540,6 +542,9 @@ HOSTS = {
         ".client-log.box.com",
         ".analytics.box.com",
         ".track.box.com",
+        ".ec.walkme.com",
+        ".cdn.walkme.com",
+        ".papi.walkme.com",
         // https://github.com/cbuijs/hagezi/blob/main/lists/native-winoffice/domains
         ".a-ring-fallback.msedge.net",
         ".a-ring.msedge.net",
@@ -705,7 +710,6 @@ HOSTS = {
         ".exo.nel.measure.office.net.cardano.com",
         ".ffc-excel-telemetry.officeapps.live.com",
         ".ffc-word-telemetry.officeapps.live.com",
-        ".ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net",
         ".fgteu1-word-telemetry-vip.officeapps.live.com",
         ".flex.msn.com",
         ".fp.msedge.net",
@@ -835,6 +839,7 @@ HOSTS = {
         ".ppc-word-telemetry.officeapps.live.com",
         ".ppc-word-telemetry.wac.trafficmanager.net",
         ".ppm-licensingtelemetry.servicebus.windows.net",
+        ".prd-qlik-telemetry.servicebus.windows.net",
         ".preview.msn.com",
         ".prod-eh-v1-analytics.servicebus.windows.net",
         ".prod-eventhub-analytics.servicebus.windows.net",

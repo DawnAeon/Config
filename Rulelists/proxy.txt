@@ -29,15 +29,16 @@ DOMAIN-SUFFIX,privacyredirect.com
 DOMAIN-SUFFIX,privadency.com
 
 # Novel
-DOMAIN-SUFFIX,69shuba.com
-DOMAIN-SUFFIX,hetushu.com
-DOMAIN-SUFFIX,sudugu.org
+#DOMAIN-SUFFIX,69shuba.com
+#DOMAIN-SUFFIX,hetushu.com
+#DOMAIN-SUFFIX,sudugu.org
 
 # Other
 DOMAIN-SUFFIX,fuliba.net
 DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,stepfun.com
 
-# sjs
+# NSFW
 DOMAIN-SUFFIX,47447.net
 DOMAIN-SUFFIX,51cg1.com
 DOMAIN-SUFFIX,xsijishe.net
