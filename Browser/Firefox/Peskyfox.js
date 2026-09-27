@@ -93,7 +93,7 @@ user_pref("browser.privateWindowSeparation.enabled", false);
 //user_pref("browser.search.widget.inNavBar", true);
 
 // PREF: new tab page wallpapers
-user_pref("browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled", true); // [DEFAULT FF132+]
+//user_pref("browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled", true); // [DEFAULT FF132+]
 
 // PREF: browser scrollbar styles
 // 0 - Default
@@ -112,7 +112,7 @@ user_pref("browser.ai.control.default", "blocked");
 user_pref("browser.ml.enable", false);
 
 // PREF: Translations
-user_pref("browser.ai.control.translations", "blocked");
+//user_pref("browser.ai.control.translations", "blocked");
 
 // PREF: Image alt text in Nightly PDF viewer
 //user_pref("browser.ai.control.pdfjsAltText", "blocked");
@@ -155,8 +155,8 @@ user_pref("full-screen-api.transition-duration.leave", "0 0"); // default=200 20
 
 // PREF: disable fullscreen notice
 // [NOTE] Adjust to a sensible value, like 1250, if you have security concerns.
-user_pref("full-screen-api.warning.timeout", 0); // default=3000; alt=1250
-user_pref("full-screen-api.warning.delay", -1); // default=500
+//user_pref("full-screen-api.warning.timeout", 0); // default=3000; alt=1250
+//user_pref("full-screen-api.warning.delay", -1); // default=500
 
 /****************************************************************************
  * SECTION: FONT APPEARANCE                                                 *
@@ -164,22 +164,22 @@ user_pref("full-screen-api.warning.delay", -1); // default=500
 
 // PREF: smoother font
 // [1] https://reddit.com/r/firefox/comments/wvs04y/windows_11_firefox_v104_font_rendering_different/?context=3
-user_pref("gfx.webrender.quality.force-subpixel-aa-where-possible", true);
+//user_pref("gfx.webrender.quality.force-subpixel-aa-where-possible", true);
 
 // PREF: use DirectWrite everywhere like Chrome [WINDOWS]
 // [1] https://kb.mozillazine.org/Thunderbird_6.0,_etc.#Font_rendering_and_performance_issues
 // [2] https://reddit.com/r/firefox/comments/wvs04y/comment/ilklzy1/?context=3
-user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
-user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);
-user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_for_families", ""); // DEFAULT FF135+
-user_pref("gfx.font_rendering.directwrite.use_gdi_table_loading", false);
+//user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
+//user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);
+//user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_for_families", ""); // DEFAULT FF135+
+//user_pref("gfx.font_rendering.directwrite.use_gdi_table_loading", false);
 // Some users find these helpful:
-    user_pref("gfx.font_rendering.cleartype_params.gamma", 1750);
-    user_pref("gfx.font_rendering.cleartype_params.enhanced_contrast", 100);
-    user_pref("gfx.font_rendering.cleartype_params.pixel_structure", 1);
+    //user_pref("gfx.font_rendering.cleartype_params.gamma", 1750);
+    //user_pref("gfx.font_rendering.cleartype_params.enhanced_contrast", 100);
+    //user_pref("gfx.font_rendering.cleartype_params.pixel_structure", 1);
 
 // PREF: use macOS Appearance Panel text smoothing setting when rendering text [macOS]
-user_pref("gfx.use_text_smoothing_setting", true);
+//user_pref("gfx.use_text_smoothing_setting", true);
 
 /****************************************************************************
  * SECTION: URL BAR                                                         *
@@ -189,7 +189,7 @@ user_pref("gfx.use_text_smoothing_setting", true);
 // Dropdown options in the URL bar:
 //user_pref("browser.urlbar.suggest.history", false);
 //user_pref("browser.urlbar.suggest.bookmark", true); // DEFAULT
-user_pref("browser.urlbar.suggest.clipboard", true);
+//user_pref("browser.urlbar.suggest.clipboard", false);
 //user_pref("browser.urlbar.suggest.openpage", false);
 user_pref("browser.urlbar.suggest.engines", false);
     //user_pref("browser.urlbar.suggest.searches", false);
@@ -200,21 +200,21 @@ user_pref("browser.urlbar.suggest.calculator", false); // [DEFAULT FF137+]
 user_pref("browser.urlbar.unitConversion.enabled", false); // [DEFAULT FF141+]
 
 // PREF: disable dropdown suggestions with empty query
-user_pref("browser.urlbar.suggest.topsites", false);
+//user_pref("browser.urlbar.suggest.topsites", false);
 
 // PREF: disable urlbar trending search suggestions [FF118+]
 // [SETTING] Search>Search Suggestions>Show trending search suggestions (FF119)
 user_pref("browser.urlbar.trending.featureGate", false);
-user_pref("browser.urlbar.suggest.trending", false);
+//user_pref("browser.urlbar.suggest.trending", false);
 
 // PREF: disable urlbar suggestions
-user_pref("browser.urlbar.addons.featureGate", false); // [FF115+]
-user_pref("browser.urlbar.amp.featureGate", false); // [FF141+] adMarketplace
+//user_pref("browser.urlbar.addons.featureGate", false); // [FF115+]
+//user_pref("browser.urlbar.amp.featureGate", false); // [FF141+] adMarketplace
 //user_pref("browser.urlbar.fakespot.featureGate", false); // [FF130+] [DEFAULT: false]
-user_pref("browser.urlbar.mdn.featureGate", false); // [FF117+] [HIDDEN PREF]
+//user_pref("browser.urlbar.mdn.featureGate", false); // [FF117+] [HIDDEN PREF]
 //user_pref("browser.urlbar.weather.featureGate", false); // [FF108+] [DEFAULT: false]
-user_pref("browser.urlbar.wikipedia.featureGate", false); // [FF141+]
-user_pref("browser.urlbar.clipboard.featureGate", true); // [FF118+] [DEFAULT: true FF125+]
+//user_pref("browser.urlbar.wikipedia.featureGate", false); // [FF141+]
+//user_pref("browser.urlbar.clipboard.featureGate", false); // [FF118+] [DEFAULT: true FF125+]
 //user_pref("browser.urlbar.yelp.featureGate", false); // [FF124+] [DEFAULT: false]
 
 // PREF: disable recent searches [FF120+]
@@ -257,7 +257,7 @@ user_pref("browser.urlbar.clipboard.featureGate", true); // [FF118+] [DEFAULT: t
 // [NOTE] You can set exceptions under site permissions
 // [SETTING] Privacy & Security>Permissions>Autoplay>Settings>Default for all websites
 // 0=Allow all, 1=Block non-muted media (default), 5=Block all
-user_pref("media.autoplay.default", 5); // DEFAULT
+//user_pref("media.autoplay.default", 5); // DEFAULT
 //user_pref("media.block-autoplay-until-in-foreground", true); // DEFAULT
 
 // PREF: disable autoplay of HTML5 media if you interacted with the site [FF78+]
@@ -265,7 +265,7 @@ user_pref("media.autoplay.default", 5); // DEFAULT
 // Firefox's Autoplay Policy Documentation (PDF) is linked below via SUMO
 // [NOTE] If you have trouble with some video sites (e.g. YouTube), then add an exception (see previous PREF)
 // [1] https://support.mozilla.org/questions/1293231
-user_pref("media.autoplay.blocking_policy", 2);
+//user_pref("media.autoplay.blocking_policy", 2);
 
 /****************************************************************************
  * SECTION: NEW TAB PAGE                                                    *
@@ -292,11 +292,11 @@ user_pref("media.autoplay.blocking_policy", 2);
 // PREF: Pinned Shortcuts on New Tab
 // [SETTINGS] Home>Firefox Home Content
 // [1] https://github.com/arkenfox/user.js/issues/1556
-user_pref("browser.newtabpage.activity-stream.discoverystream.enabled", false);
+//user_pref("browser.newtabpage.activity-stream.discoverystream.enabled", false);
 //user_pref("browser.newtabpage.activity-stream.showSearch", true); // NTP Web Search [DEFAULT]
-user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); // Shortcuts
+//user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); // Shortcuts
       user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // Sponsored shortcuts [FF83+]
-user_pref("browser.newtabpage.activity-stream.showWeather", false); // Weather [FF130+]
+//user_pref("browser.newtabpage.activity-stream.showWeather", false); // Weather [FF130+]
     //user_pref("browser.newtabpage.activity-stream.system.showWeather", false); // hides Weather as an UI option
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // Recommended by Pocket
 user_pref("browser.newtabpage.activity-stream.showSponsored", false); // Sponsored stories [FF58+]  
@@ -406,7 +406,7 @@ user_pref("pdfjs.defaultZoomValue", page-width);
  * SECTION: DOM (DOCUMENT OBJECT MODEL)                                     *
 ****************************************************************************/
 // PREF: prevent scripts from moving and resizing open windows
-user_pref("dom.disable_window_move_resize", true);
+//user_pref("dom.disable_window_move_resize", true);
 
 // PREF: disable beforeunload event
 // [WHY] The method is commonly abused by scam and spyware sites.
@@ -436,7 +436,7 @@ user_pref("dom.disable_window_move_resize", true);
 // 0 = force all new windows opened by JavaScript into tabs
 // [NOTE] Most advertising popups also open in new windows with values set
 // [1] https://kb.mozillazine.org/About:config_entries
-user_pref("browser.link.open_newwindow.restriction", 0); // DEFAULT
+//user_pref("browser.link.open_newwindow.restriction", 2); // DEFAULT
 
 // PREF: override <browser.link.open_newwindow> for external links
 // Set if a different destination for external links is needed
@@ -444,7 +444,7 @@ user_pref("browser.link.open_newwindow.restriction", 0); // DEFAULT
 // 2=Open in a new window
 // 1=Open in the current tab/window
 // -1=no overrides (default)
-user_pref("browser.link.open_newwindow.override.external", 3); // DEFAULT
+//user_pref("browser.link.open_newwindow.override.external", -1); // DEFAULT
 
 // PREF: focus behavior for new tabs from links
 // Determine whether a link opens in the foreground or background on left-click
@@ -462,17 +462,17 @@ user_pref("browser.link.open_newwindow.override.external", 3); // DEFAULT
 // false(default) = loads the new tab in the foreground, taking the focus from the current tab
 // [NOTE] Setting this preference to true will still bring the browser to the front when opening links from outside the browser
 // [1] https://kb.mozillazine.org/About:config_entries
-user_pref("browser.tabs.loadDivertedInBackground", true); // DEFAULT
+//user_pref("browser.tabs.loadDivertedInBackground", false); // DEFAULT
 
 // PREF: force bookmarks to open in a new tab, not the current tab
 user_pref("browser.tabs.loadBookmarksInTabs", true);
     user_pref("browser.tabs.loadBookmarksInBackground", true); // load bookmarks in background
 
-/// PREF: leave Bookmarks Menu open when selecting a site
-user_pref("browser.bookmarks.openInTabClosesMenu", true);
+// PREF: leave Bookmarks Menu open when selecting a site
+user_pref("browser.bookmarks.openInTabClosesMenu", false);
 
 // PREF: restore "View image info" on right-click
-user_pref("browser.menu.showViewImageInfo", true);
+//user_pref("browser.menu.showViewImageInfo", true);
 
 // PREF: show all matches in Findbar
 user_pref("findbar.highlightAll", true);
@@ -486,7 +486,7 @@ user_pref("findbar.highlightAll", true);
 // PREF: disable middle mouse click opening links from clipboard
 // It's been default in Linux since at least FF102.
 // [1] https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/10089
-user_pref("middlemouse.contentLoadURL", true);
+//user_pref("middlemouse.contentLoadURL", false);
 
 // PREF: insert new tabs after groups like it
 // true(default) = open new tabs to the right of the parent tab
@@ -537,7 +537,7 @@ user_pref("browser.tabs.hoverPreview.enabled", false);
 //user_pref("browser.backspace_action", 2); // DEFAULT
 
 // PREF: disable ALT key toggling the menu bar
-user_pref("ui.key.menuAccessKeyFocuses", false);
+//user_pref("ui.key.menuAccessKeyFocuses", false);
     //user_pref("ui.key.menuAccessKey", 18); // DEFAULT
 
 // PREF: cycle through tabs in recently used order
@@ -596,7 +596,7 @@ user_pref("reader.parse-on-load.enabled", false);
 
 // PREF: allow for more granular control of zoom levels
 // Especially useful if you want to set your default zoom to a custom level.
-user_pref("toolkit.zoomManager.zoomValues", ".3,.5,.67,.8,.9,.95,1,1.1,1.2,1.3,1.4,1.5,1.6,1.7,2,2.4,3");
+//user_pref("toolkit.zoomManager.zoomValues", ".3,.5,.67,.8,.9,.95,1,1.1,1.2,1.3,1.4,1.5,1.6,1.7,2,2.4,3");
 
 // PREF: restore zooming behavior [macOS] [FF109+]
 // On macOS, Ctrl or Cmd + trackpad or mouse wheel now scrolls the page instead of zooming.
@@ -607,10 +607,10 @@ user_pref("toolkit.zoomManager.zoomValues", ".3,.5,.67,.8,.9,.95,1,1.1,1.2,1.3,1
 
 // PREF: adjust the minimum tab width
 // Can be overridden by userChrome.css
-user_pref("browser.tabs.tabMinWidth", 120); // default=76
+//user_pref("browser.tabs.tabMinWidth", 120); // default=76
 
 // PREF: always underline links [FF120+]
-user_pref("layout.css.always_underline_links", true); // DEFAULT
+//user_pref("layout.css.always_underline_links", false); // DEFAULT
 
 /****************************************************************************
  * SECTION: DEVELOPER TOOLS                                                 *

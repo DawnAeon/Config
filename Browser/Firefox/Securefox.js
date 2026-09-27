@@ -1337,7 +1337,7 @@ user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 
 // PREF: disable middle click on new tab button opening URLs or searches using clipboard [FF115+]
 // Enable if you're using LINUX.
-user_pref("browser.tabs.searchclipboardfor.middleclick", true); // DEFAULT WINDOWS macOS
+//user_pref("browser.tabs.searchclipboardfor.middleclick", false); // DEFAULT WINDOWS macOS
 
 // PREF: do not allow PDFs to load javascript
 // [1] https://www.reddit.com/r/uBlockOrigin/comments/mulc86/firefox_88_now_supports_javascript_in_pdf_files/
