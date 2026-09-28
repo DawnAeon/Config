@@ -45,13 +45,21 @@
       "Locked": false,
       "PrivateBrowsing": true
     },
-    "AutoLaunchProtocolsFromOrigins": [{
+    "AutoLaunchProtocolsFromOrigins": [
+      {
         "protocol": "spotify",
         "allowed_origins": [
           "https://open.spotify.com",
           "https://embed.spotify.com"
       ]
-    }],
+    },
+      {
+        "protocol": "creoview",
+        "allowed_origins": [
+          "https://imagine.apps.gevernova.com"
+        ]
+    }
+  ],
     "CaptivePortal": false,
     "Containers": {
       "Default": [
@@ -116,6 +124,14 @@
       "ATBC@EasonWong": {
         "installation_mode": "normal_installed",
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/adaptive-tab-bar-colour/latest.xpi"
+      },
+      "suziwen1@gmail.com": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/zeroomega/latest.xpi"
+      },
+      "simple-chat-hub@chathub.aipilot.cc": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/simple-chat-hub/latest.xpi"
       }
     },
     "ExtensionUpdate": true,
@@ -138,7 +154,6 @@
       "OnlineEnabled": true,
       "Locked": false
     },
-    "HardwareAcceleration": true,
     "HttpsOnlyMode": "enabled",
     "IPProtectionAvailable": false,
     "LocalNetworkAccess": {
