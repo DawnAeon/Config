@@ -36,7 +36,6 @@ DOMAIN-SUFFIX,privadency.com
 # Other
 DOMAIN-SUFFIX,fuliba.net
 DOMAIN-SUFFIX,deepseek.com
-DOMAIN-SUFFIX,stepfun.com
 
 # NSFW
 DOMAIN-SUFFIX,47447.net
@@ -44,5 +43,6 @@ DOMAIN-SUFFIX,51cg1.com
 DOMAIN-SUFFIX,xsijishe.net
 
 # Network
+DOMAIN-SUFFIX,sparkcloud.cc
 DOMAIN-SUFFIX,xftld.org
 DOMAIN-SUFFIX,y-too.com

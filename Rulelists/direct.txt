@@ -11,6 +11,16 @@ DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,tikolu.net
 DOMAIN-SUFFIX,pikpak.site
 DOMAIN-SUFFIX,pikpak.io
+DOMAIN-SUFFIX,fuliba2023.net
+DOMAIN-SUFFIX,fuliba2025.net
+DOMAIN-SUFFIX,fuliba66.net
+DOMAIN-SUFFIX,uliba.net
+DOMAIN-SUFFIX,fuliba123.com
+DOMAIN-SUFFIX,fuliba123.net
+DOMAIN-SUFFIX,wnflb2023.com
+DOMAIN-SUFFIX,wnflb99.com
+DOMAIN-SUFFIX,wnflb00.com
+DOMAIN-SUFFIX,imgdd.com
 
 # Domestic
 DOMAIN-SUFFIX,oxycontinon.com
@@ -65,6 +75,12 @@ DOMAIN-SUFFIX,cilixiong.cc
 DOMAIN-SUFFIX,cilixiong.uk
 DOMAIN-SUFFIX,cilixiong.xyz
 #DOMAIN-SUFFIX,gazes.store
+DOMAIN-SUFFIX,xgplay4.com
+DOMAIN-SUFFIX,dytt-hot.com
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,mozilla.org
+DOMAIN-SUFFIX,mozilla.net
 
 # Software
 DOMAIN-SUFFIX,ax1x.com
