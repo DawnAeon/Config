@@ -11,16 +11,6 @@ DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,tikolu.net
 DOMAIN-SUFFIX,pikpak.site
 DOMAIN-SUFFIX,pikpak.io
-DOMAIN-SUFFIX,fuliba2023.net
-DOMAIN-SUFFIX,fuliba2025.net
-DOMAIN-SUFFIX,fuliba66.net
-DOMAIN-SUFFIX,uliba.net
-DOMAIN-SUFFIX,fuliba123.com
-DOMAIN-SUFFIX,fuliba123.net
-DOMAIN-SUFFIX,wnflb2023.com
-DOMAIN-SUFFIX,wnflb99.com
-DOMAIN-SUFFIX,wnflb00.com
-DOMAIN-SUFFIX,imgdd.com
 
 # Domestic
 DOMAIN-SUFFIX,oxycontinon.com
@@ -43,6 +33,19 @@ DOMAIN-SUFFIX,huangjiwei.com
 DOMAIN-SUFFIX,jesor.me
 DOMAIN-SUFFIX,ai-163cdn.com
 DOMAIN-SUFFIX,kwimgs.com
+DOMAIN-SUFFIX,fuliba2023.net
+DOMAIN-SUFFIX,fuliba2025.net
+DOMAIN-SUFFIX,fuliba66.net
+DOMAIN-SUFFIX,uliba.net
+DOMAIN-SUFFIX,fuliba123.com
+DOMAIN-SUFFIX,fuliba123.net
+DOMAIN-SUFFIX,wnflb2023.com
+DOMAIN-SUFFIX,wnflb99.com
+DOMAIN-SUFFIX,wnflb00.com
+DOMAIN-SUFFIX,imgdd.com
+DOMAIN-SUFFIX,qingbuyaohaixiu.com
+DOMAIN-SUFFIX,hdcdn.store
+DOMAIN-SUFFIX,xn--vhq3x51dn9bivas49nfps.com
 
 # NSFW
 DOMAIN-SUFFIX,sjs47.net
