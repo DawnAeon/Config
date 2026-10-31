@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,doubaocdn.com
 DOMAIN-SUFFIX,qianwen.com
 DOMAIN,images.bakstotre.com
 DOMAIN-SUFFIX,1000h.org
-DOMAIN-SUFFIX,huangjiwei.com
+#DOMAIN-SUFFIX,huangjiwei.com
 DOMAIN-SUFFIX,jesor.me
 DOMAIN-SUFFIX,ai-163cdn.com
 DOMAIN-SUFFIX,kwimgs.com
@@ -46,6 +46,18 @@ DOMAIN-SUFFIX,imgdd.com
 DOMAIN-SUFFIX,qingbuyaohaixiu.com
 DOMAIN-SUFFIX,hdcdn.store
 DOMAIN-SUFFIX,xn--vhq3x51dn9bivas49nfps.com
+DOMAIN-SUFFIX,jisuzyv.com
+DOMAIN-KEYWORD,hhuus.com
+DOMAIN-SUFFIX,hhwenjian.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,ajupf.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,1234cdn.com
+DOMAIN-SUFFIX,1000qm.vip
+DOMAIN-SUFFIX,hhjd.mobi
+DOMAIN-SUFFIX,rn252.xyz
+DOMAIN,xluuss.com
+DOMAIN-SUFFIX,xlzyd.com
 
 # NSFW
 DOMAIN-SUFFIX,sjs47.net
@@ -58,7 +70,6 @@ DOMAIN-SUFFIX,ddys.ai
 DOMAIN-SUFFIX,findno.tv
 DOMAIN-SUFFIX,novipnoad.net
 DOMAIN-SUFFIX,novipnoad.uk
-DOMAIN-SUFFIX,novipnoad.uk
 DOMAIN-SUFFIX,novipnoad.ca
 DOMAIN-SUFFIX,libvio.host
 DOMAIN-SUFFIX,libvio.to
@@ -66,7 +77,6 @@ DOMAIN-SUFFIX,libvios.com
 DOMAIN-SUFFIX,libhd.com
 DOMAIN-SUFFIX,libviobd.com
 DOMAIN-SUFFIX,cz01.tv
-DOMAIN-SUFFIX,4kcz.com
 DOMAIN-SUFFIX,czzy.top
 DOMAIN-SUFFIX,cz4k.com
 DOMAIN-SUFFIX,vidhub1.cc
