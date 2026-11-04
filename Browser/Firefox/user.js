@@ -233,6 +233,8 @@ user_pref("mousewheel.default.delta_multiplier_y", 300); // 250-400; adjust this
 // Enter your personal overrides below this line:
 
 ///SECUREFOX
+user_pref("privacy.trackingprotection.allow_list.baseline.enabled", true); // [DEFAULT: true]
+user_pref("privacy.trackingprotection.allow_list.convenience.enabled", true); // [DEFAULT: true]
 user_pref("browser.download.start_downloads_in_tmp_dir", false); // [FF102+]
 user_pref("browser.cache.disk.enable", true);
 user_pref("privacy.sanitize.timeSpan", 0);
@@ -300,7 +302,6 @@ user_pref("media.autoplay.default", 5); // DEFAULT
 user_pref("browser.toolbars.bookmarks.visibility", "always"); // DEFAULT
 user_pref("browser.download.alwaysOpenPanel", false);
 user_pref("pdfjs.defaultZoomValue", page-width);
-user_pref("browser.tabs.loadBookmarksInTabs", true);
     user_pref("browser.tabs.loadBookmarksInBackground", true); // load bookmarks in background
 user_pref("browser.tabs.insertAfterCurrent", true);
 user_pref("browser.tabs.hoverPreview.enabled", false);

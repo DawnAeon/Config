@@ -26,11 +26,11 @@
         "Locked": false
       },
       "SmartWindow": {
-        "Value": "available",
+        "Value": "blocked",
         "Locked": false
       },
       "SpeechRecognition": {
-        "Value": "available",
+        "Value": "blocked",
         "Locked": false
       }
     },
