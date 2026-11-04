@@ -79,9 +79,6 @@
         }
       ]
     },
-    "CrashReportsSubmit": {
-      "Enabled": false
-    },
     "DisableAccounts": true,
     "DisableDefaultBrowserAgent": true,
     "DisableDeveloperTools": true,
@@ -149,9 +146,6 @@
       "SponsoredSuggestions": false,
       "OnlineEnabled": true,
       "Locked": false
-    },
-    "GenerativeAI": {
-      "Enabled": false
     },
     "IPProtectionAvailable": false,
     "NetworkPrediction": false ,
