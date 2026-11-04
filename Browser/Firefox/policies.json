@@ -28,6 +28,10 @@
       "SmartWindow": {
         "Value": "available",
         "Locked": false
+      },
+      "SpeechRecognition": {
+        "Value": "available",
+        "Locked": false
       }
     },
     "Authentication": {
@@ -51,15 +55,15 @@
         "allowed_origins": [
           "https://open.spotify.com",
           "https://embed.spotify.com"
-      ]
-    },
+        ]
+      },
       {
         "protocol": "creoview",
         "allowed_origins": [
           "https://imagine.apps.gevernova.com"
         ]
-    }
-  ],
+      }
+    ],
     "CaptivePortal": false,
     "Containers": {
       "Default": [
@@ -75,8 +79,9 @@
         }
       ]
     },
-    "DefaultBrowserSettingEnabled": false,
-    "DefaultSerialGuardSetting": 3,
+    "CrashReportsSubmit": {
+      "Enabled": false
+    },
     "DisableAccounts": true,
     "DisableDefaultBrowserAgent": true,
     "DisableDeveloperTools": true,
@@ -85,8 +90,8 @@
     "DisableFirefoxStudies": true,
     "DisableLaunchOnLogin": false,
     "DisableMasterPasswordCreation": true,
+    "DisableSetDesktopBackground": true,
     "DisableTelemetry": true,
-    "DisplayMenuBar": "default-off",
     "DontCheckDefaultBrowser": true,
     "EncryptedMediaExtensions": {
       "Enabled": false,
@@ -100,10 +105,6 @@
       "addon@darkreader.org": {
         "installation_mode": "normal_installed",
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi"
-      },
-      "{a8cf72f7-09b7-4cd4-9aaa-7a023bf09916}": {
-        "installation_mode": "normal_installed",
-        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/besttimetracker/latest.xpi"
       },
       "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}": {
         "installation_mode": "normal_installed",
@@ -128,13 +129,8 @@
       "suziwen1@gmail.com": {
         "installation_mode": "normal_installed",
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/zeroomega/latest.xpi"
-      },
-      "simple-chat-hub@chathub.aipilot.cc": {
-        "installation_mode": "normal_installed",
-        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/simple-chat-hub/latest.xpi"
       }
     },
-    "ExtensionUpdate": true,
     "FirefoxHome": {
       "Search": true,
       "TopSites": false,
@@ -154,21 +150,12 @@
       "OnlineEnabled": true,
       "Locked": false
     },
-    "HttpsOnlyMode": "enabled",
-    "IPProtectionAvailable": false,
-    "LocalNetworkAccess": {
-      "Enabled": true,
-      "BlockTrackers": true,
-      "EnablePrompting": true,
-      "SkipDomains": [
-        "*.devices.local"
-      ],
-      "Locked": false
+    "GenerativeAI": {
+      "Enabled": false
     },
+    "IPProtectionAvailable": false,
     "NetworkPrediction": false ,
     "NewTabPage": true,
-    "NoDefaultBookmarks": true,
-    "OfferToSaveLoginsDefault": false,
     "OverrideFirstRunPage": "",
     "Preferences": {
       "accessibility.force_disabled": {
@@ -222,7 +209,6 @@
       "FirefoxLabs": true,
       "Locked": false
     },
-    "VisualSearchEnabled": true,
     "WindowsSSO": true
   }
 }

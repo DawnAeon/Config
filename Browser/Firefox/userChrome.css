@@ -1,3 +1,9 @@
+/** Import Lepton stylesheet (Chrome) *****************************************/
+/*
+@import url("css/leptonChrome.css");
+*/
+
+/** Add your custom styles below **********************************************/
 /* ─── 彻底隐藏右键菜单中的“查看页面源代码” ─── */
 #context-viewsource {
   display: none !important;
@@ -8,15 +14,6 @@
   display: none !important;
 }
 
-@-moz-document url("about:home"), url("about:newtab"), url(about:privatebrowsing) {
-  body{
-    background-image: url("https://bing.img.run/1920x1080.php") !important; /* 修改主页和新标签页背景为Bing日图 */
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
-    background-position-x: center !important;
-    background-position-y: bottom !important;
-  }
 /* 半透明搜索框 */
 .search-box,
 #search-box,
@@ -25,6 +22,7 @@ input[type="text"] {
     opacity: 0.7 !important;
     filter: opacity(0.7) !important;
 }
+
 /* 移动LOGO和Firefox到左上角 */
 .logo-and-wordmark {
 position: fixed !important;
@@ -37,5 +35,19 @@ display: flex !important;
 flex-direction: row !important;
 align-items: center !important;
 }
-/* 这个别删 */
+
+/* Enable option to edit bookmark URLs under Add Bookmark (blue star) menu */
+
+.editBMPanel_locationRow {
+  display: initial !important;
+}
+
+/* Disable Email Image/Audio/Video and Set as Desktop Background context menu items */
+
+#context-sendimage,
+#context-sendvideo,
+#context-sendaudio,
+#context-sep-setbackground,
+#context-setDesktopBackground {
+  display: none !important;
 }

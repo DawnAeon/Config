@@ -202,7 +202,7 @@ user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
 // [1] https://bugzilla.mozilla.org/buglist.cgi?bug_id=302433,1738574
 // [2] https://github.com/arkenfox/user.js/issues/1732
 // [3] https://bugzilla.mozilla.org/302433
-user_pref("browser.download.start_downloads_in_tmp_dir", true); // [FF102+]
+user_pref("browser.download.start_downloads_in_tmp_dir", false); // [FF102+]
 //user_pref("browser.helperApps.deleteTempFileOnExit", true); // DEFAULT [FF108]
 
 // PREF: disable UITour backend
@@ -748,7 +748,7 @@ user_pref("browser.search.separatePrivateDefault.ui.enabled", false);
 // Override these if you trust and use a privacy respecting search engine.
 // [NOTE] Both prefs must be true for live search to work in the location bar.
 // [SETTING] Search>Provide search suggestions > Show search suggestions in address bar result
-//user_pref("browser.search.suggest.enabled", false);
+user_pref("browser.search.suggest.enabled", false);
     //user_pref("browser.search.suggest.enabled.private", false); // DEFAULT
 
 // PREF: disable Show recent searches
@@ -1379,7 +1379,7 @@ user_pref("pdfjs.enableScripting", false); // [FF86+]
 // [2] https://bugzilla.mozilla.org/show_bug.cgi?id=1879383 (leftover temp files)
 // [3] https://www.reddit.com/r/firefox/comments/1oglolg/bug_windows_bitsjob/
 // (recent report of the queue overflow bug)
-//user_pref("app.update.BITS.enabled", false); // [WINDOWS]
+user_pref("app.update.BITS.enabled", false); // [WINDOWS]
 
  /******************************************************************************
  * SECTION: SAFE BROWSING (SB)                                               *
@@ -1415,19 +1415,19 @@ user_pref("pdfjs.enableScripting", false); // [FF86+]
 // [8] https://blog.cryptographyengineering.com/2019/10/13/dear-apple-safe-browsing-might-not-be-that-safe/ (outdated)
 // [9] https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/
 // [10] https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers
-//user_pref("browser.safebrowsing.malware.enabled", false); // all checks happen locally
-//user_pref("browser.safebrowsing.phishing.enabled", false); // all checks happen locally
-//user_pref("browser.safebrowsing.blockedURIs.enabled", false); // all checks happen locally
-    //user_pref("browser.safebrowsing.provider.google4.gethashURL", "");
-    //user_pref("browser.safebrowsing.provider.google4.updateURL", "");
-    //user_pref("browser.safebrowsing.provider.google.gethashURL", "");
-    //user_pref("browser.safebrowsing.provider.google.updateURL", "");
+user_pref("browser.safebrowsing.malware.enabled", false); // all checks happen locally
+user_pref("browser.safebrowsing.phishing.enabled", false); // all checks happen locally
+user_pref("browser.safebrowsing.blockedURIs.enabled", false); // all checks happen locally
+    user_pref("browser.safebrowsing.provider.google4.gethashURL", "");
+    user_pref("browser.safebrowsing.provider.google4.updateURL", "");
+    user_pref("browser.safebrowsing.provider.google.gethashURL", "");
+    user_pref("browser.safebrowsing.provider.google.updateURL", "");
 
 // PREF: disable SB checks for downloads
 // This is the master switch for the safebrowsing.downloads prefs (both local lookups + remote).
 // [NOTE] Still enable this for checks to happen locally.
 // [SETTING] Privacy & Security>Security>... "Block dangerous downloads"
-//user_pref("browser.safebrowsing.downloads.enabled", false); // all checks happen locally
+user_pref("browser.safebrowsing.downloads.enabled", false); // all checks happen locally
       
 // PREF: disable SB checks for downloads (remote)
 // To verify the safety of certain executable files, Firefox may submit some information about the
@@ -1438,8 +1438,8 @@ user_pref("browser.safebrowsing.downloads.remote.enabled", false);
       //user_pref("browser.safebrowsing.downloads.remote.url", "");
 // disable SB checks for unwanted software
 // [SETTING] Privacy & Security>Security>... "Warn you about unwanted and uncommon software"
-        //user_pref("browser.safebrowsing.downloads.remote.block_potentially_unwanted", false);
-        //user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false);
+        user_pref("browser.safebrowsing.downloads.remote.block_potentially_unwanted", false);
+        user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false);
 
 // PREF: allow user to "ignore this warning" on SB warnings
 // If clicked, it bypasses the block for that session. This is a means for admins to enforce SB.
@@ -1537,7 +1537,7 @@ user_pref("browser.region.update.enabled", false);
 //user_pref("app.update.auto", false);
 
 // PREF: disable automatic extension updates
-user_pref("extensions.update.enabled", false);
+//user_pref("extensions.update.enabled", false);
 
 // PREF: disable search engine updates (e.g. OpenSearch)
 // Prevent Firefox from adding back search engines after you removed them.

@@ -143,7 +143,7 @@ user_pref("browser.ml.chat.menu", true);
 // [2] https://blog.nightly.mozilla.org/2023/06/01/firefox-translations-and-other-innovations-these-weeks-in-firefox-issue-139/
 // [3] https://www.ghacks.net/2023/08/02/mozilla-firefox-117-beta-brings-an-automatic-language-translator-for-websites-and-it-works-offline/
 user_pref("browser.translations.enable", false); // DEFAULT
-    user_pref("browser.translations.autoTranslate", false);
+    //user_pref("browser.translations.autoTranslate", true);
 
 /****************************************************************************
  * SECTION: FULLSCREEN NOTICE                                               *
@@ -200,7 +200,7 @@ user_pref("browser.urlbar.suggest.calculator", false); // [DEFAULT FF137+]
 user_pref("browser.urlbar.unitConversion.enabled", false); // [DEFAULT FF141+]
 
 // PREF: disable dropdown suggestions with empty query
-//user_pref("browser.urlbar.suggest.topsites", false);
+user_pref("browser.urlbar.suggest.topsites", false);
 
 // PREF: disable urlbar trending search suggestions [FF118+]
 // [SETTING] Search>Search Suggestions>Show trending search suggestions (FF119)
@@ -257,7 +257,7 @@ user_pref("browser.urlbar.trending.featureGate", false);
 // [NOTE] You can set exceptions under site permissions
 // [SETTING] Privacy & Security>Permissions>Autoplay>Settings>Default for all websites
 // 0=Allow all, 1=Block non-muted media (default), 5=Block all
-//user_pref("media.autoplay.default", 5); // DEFAULT
+user_pref("media.autoplay.default", 5); // DEFAULT
 //user_pref("media.block-autoplay-until-in-foreground", true); // DEFAULT
 
 // PREF: disable autoplay of HTML5 media if you interacted with the site [FF78+]
@@ -323,7 +323,7 @@ user_pref("browser.newtabpage.activity-stream.default.sites", "");
 
 // PREF: Bookmarks Toolbar visibility
 // always, never, or newtab
-//user_pref("browser.toolbars.bookmarks.visibility", "newtab"); // DEFAULT
+user_pref("browser.toolbars.bookmarks.visibility", "always"); // DEFAULT
 
 /******************************************************************************
  * SECTION: POCKET                                                            *
@@ -510,7 +510,7 @@ user_pref("browser.tabs.insertAfterCurrent", true);
 
 // PREF: controls if a double-click word selection also deletes one adjacent whitespace
 // This mimics native behavior on macOS.
-user_pref("editor.word_select.delete_space_after_doubleclick_selection", true);
+//user_pref("editor.word_select.delete_space_after_doubleclick_selection", true);
 
 // PREF: do not hide the pointer while typing [LINUX]
 //user_pref("widget.gtk.hide-pointer-while-typing.enabled", false);
