@@ -59,7 +59,7 @@ align-items: center !important;
     --uc-autohide-toolbar-delay: 0ms;
 
     /* Animation duration */
-    --uc-autohide-toolbar-duration: 100ms;
+    --uc-autohide-toolbar-duration: 0ms;
 }
 
 /* Compact density */
