@@ -36,8 +36,143 @@ flex-direction: row !important;
 align-items: center !important;
 }
 
-/* Enable option to edit bookmark URLs under Add Bookmark (blue star) menu */
 
+/*
+ * Firefox Auto-hide Navigation Toolbar
+ *
+ * Based on:
+ * https://github.com/MrOtherGuy/firefox-csshacks/
+ * chrome/autohide_main_toolbar.css
+ *
+ * License: MPL-2.0
+ */
+
+/* ==============================
+   1. Basic settings
+   ============================== */
+
+:root {
+    /* Toolbar hide distance */
+    --uc-navbar-transform: -40px;
+
+    /* Delay before hiding */
+    --uc-autohide-toolbar-delay: 0ms;
+
+    /* Animation duration */
+    --uc-autohide-toolbar-duration: 100ms;
+}
+
+/* Compact density */
+:root[uidensity="compact"] {
+    --uc-navbar-transform: -34px;
+}
+
+/* Preserve Firefox toolbar layout */
+#navigator-toolbox > div {
+    display: contents;
+}
+
+/* ==============================
+   2. Hide navigation toolbar
+   ============================== */
+
+:root[sessionrestored] :where(
+    #nav-bar,
+    #PersonalToolbar
+) {
+    transform: translateY(var(--uc-navbar-transform));
+}
+
+/* Keep toolbar visible in customization mode */
+:root:is(
+    [customizing],
+    [chromehidden*="toolbar"]
+) :where(
+    #nav-bar,
+    #PersonalToolbar
+) {
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+/* Navigation toolbar animation */
+#nav-bar:not([customizing]) {
+    opacity: 0;
+
+    transition:
+        transform var(--uc-autohide-toolbar-duration)
+        ease var(--uc-autohide-toolbar-delay),
+        opacity var(--uc-autohide-toolbar-duration)
+        ease var(--uc-autohide-toolbar-delay)
+        !important;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* Bookmarks toolbar animation */
+#PersonalToolbar {
+    transition:
+        transform var(--uc-autohide-toolbar-duration)
+        ease var(--uc-autohide-toolbar-delay)
+        !important;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* ==============================
+   3. Layering
+   ============================== */
+
+#navigator-toolbox,
+#sidebar-box,
+#sidebar-main,
+#sidebar-splitter,
+#tabbrowser-tabbox {
+    z-index: auto !important;
+}
+
+/* ==============================
+   4. Show on hover or focus
+   ============================== */
+
+/* Show when keyboard focus is inside toolbar */
+#navigator-toolbox:focus-within > .browser-toolbar,
+
+/* Show when hovering over titlebar */
+.browser-titlebar:hover ~ :is(
+    #nav-bar,
+    #PersonalToolbar
+),
+
+/* Show when hovering over navigation toolbar */
+#nav-bar:hover,
+
+/* Show bookmarks toolbar together */
+#nav-bar:hover + #PersonalToolbar {
+    transform: translateY(0);
+    opacity: 1;
+
+    transition-duration:
+        var(--uc-autohide-toolbar-duration),
+        var(--uc-autohide-toolbar-duration) !important;
+
+    transition-delay: 0s !important;
+}
+
+/* ==============================
+   5. Reclaim vertical space
+   ============================== */
+
+:root[sessionrestored]:not(
+    [chromehidden~="toolbar"]
+) > body > #browser {
+    margin-top: var(--uc-navbar-transform);
+}
+
+
+/* Enable option to edit bookmark URLs under Add Bookmark (blue star) menu */
 .editBMPanel_locationRow {
   display: initial !important;
 }
