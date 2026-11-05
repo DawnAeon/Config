@@ -331,6 +331,8 @@ user_pref("font.name.sans-serif.zh-CN", "Sarasa Gothic CL");
 user_pref("font.name.serif.x-western", "PT Serif");
 user_pref("browser.uidensity", 1);
 user_pref("extensions.quarantinedDomains.enabled", true);
+user_pref("extensions.webextensions.addons-restricted-domains@mozilla.com.disabled", true);
+user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 
 /****************************************************************************
  * END: BETTERFOX                                                           *
