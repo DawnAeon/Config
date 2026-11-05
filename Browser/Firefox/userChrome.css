@@ -36,6 +36,14 @@ flex-direction: row !important;
 align-items: center !important;
 }
 
+/* Hide "Open All in Tabs" in Bookmarks Toolbar folders */
+#PlacesToolbarItems .openintabs-menuitem,
+
+/* Hide the separator above/below it */
+#PlacesToolbarItems .openintabs-menuseparator,
+#PlacesToolbarItems .bookmarks-actions-menuseparator {
+    display: none !important;
+}
 
 /*
  * Firefox Auto-hide Navigation Toolbar
