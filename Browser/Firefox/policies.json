@@ -83,7 +83,6 @@
     "DisableDefaultBrowserAgent": true,
     "DisableDeveloperTools": true,
     "DisableFeedbackCommands": true,
-    "DisableFirefoxAccounts": true,
     "DisableFirefoxStudies": true,
     "DisableLaunchOnLogin": false,
     "DisableMasterPasswordCreation": true,
@@ -126,6 +125,10 @@
       "suziwen1@gmail.com": {
         "installation_mode": "normal_installed",
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/zeroomega/latest.xpi"
+      },
+      "chrome-mask@overengineer.dev": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/chrome-mask/latest.xpi"
       }
     },
     "FirefoxHome": {
@@ -145,6 +148,7 @@
       "WebSuggestions": true,
       "SponsoredSuggestions": false,
       "OnlineEnabled": true,
+      "ImproveSuggest": true,
       "Locked": false
     },
     "IPProtectionAvailable": false,
@@ -157,7 +161,6 @@
         "Status": "default"
       }
     },
-    "PrimaryPassword": false,
     "SearchEngines": {
       "Add": [
         {
