@@ -300,7 +300,7 @@ user_pref("browser.urlbar.unitConversion.enabled", false); // [DEFAULT FF141+]
 user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("media.autoplay.default", 5); // DEFAULT
 user_pref("browser.toolbars.bookmarks.visibility", "always"); // DEFAULT
-user_pref("browser.download.alwaysOpenPanel", false);
+//user_pref("browser.download.alwaysOpenPanel", false);
 user_pref("pdfjs.defaultZoomValue", page-width);
     user_pref("browser.tabs.loadBookmarksInBackground", true); // load bookmarks in background
 user_pref("browser.tabs.insertAfterCurrent", true);
@@ -328,7 +328,7 @@ user_pref("font.name.monospace.x-western", "Sarasa Mono CL");
 user_pref("font.name.monospace.zh-CN", "Sarasa Mono CL");
 user_pref("font.name.sans-serif.x-western", "Sarasa Gothic CL");
 user_pref("font.name.sans-serif.zh-CN", "Sarasa Gothic CL");
-user_pref("font.name.serif.x-western", "PT Serif");
+//user_pref("font.name.serif.x-western", "PT Serif");
 user_pref("browser.uidensity", 1);
 user_pref("extensions.quarantinedDomains.enabled", true);
 user_pref("extensions.webextensions.addons-restricted-domains@mozilla.com.disabled", true);
