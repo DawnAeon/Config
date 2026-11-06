@@ -301,7 +301,7 @@ user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("media.autoplay.default", 5); // DEFAULT
 user_pref("browser.toolbars.bookmarks.visibility", "always"); // DEFAULT
 //user_pref("browser.download.alwaysOpenPanel", false);
-user_pref("pdfjs.defaultZoomValue", page-width);
+user_pref("pdfjs.defaultZoomValue", "page-width");
     user_pref("browser.tabs.loadBookmarksInBackground", true); // load bookmarks in background
 user_pref("browser.tabs.insertAfterCurrent", true);
 user_pref("browser.tabs.hoverPreview.enabled", false);
