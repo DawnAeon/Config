@@ -34,21 +34,6 @@
         "Locked": false
       }
     },
-    "Authentication": {
-      "SPNEGO": ["ge.com", "gevernova.com","gevernova.net"],
-      "Delegated": ["ge.com", "gevernova.com","gevernova.net"],
-      "NTLM": ["ge.com", "gevernova.com","gevernova.net"],
-      "AllowNonFQDN": {
-        "SPNEGO": true,
-        "NTLM": true
-      },
-      "AllowProxies": {
-        "SPNEGO": true,
-        "NTLM": false
-      },
-      "Locked": false,
-      "PrivateBrowsing": true
-    },
     "AutoLaunchProtocolsFromOrigins": [
       {
         "protocol": "spotify",
@@ -84,7 +69,6 @@
     "DisableDeveloperTools": true,
     "DisableFeedbackCommands": true,
     "DisableFirefoxStudies": true,
-    "DisableLaunchOnLogin": false,
     "DisableMasterPasswordCreation": true,
     "DisableSetDesktopBackground": true,
     "DisableTelemetry": true,
