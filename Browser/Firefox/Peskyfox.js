@@ -400,7 +400,7 @@ user_pref("browser.download.open_pdf_attachments_inline", true);
 
 // PREF: default zoom for PDFs [HIDDEN]
 // [NOTE] "page-width" not needed if using sidebar on load
-user_pref("pdfjs.defaultZoomValue", page-width);
+user_pref("pdfjs.defaultZoomValue", "page-width");
 
 /****************************************************************************
  * SECTION: DOM (DOCUMENT OBJECT MODEL)                                     *
