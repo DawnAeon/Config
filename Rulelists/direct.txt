@@ -11,6 +11,10 @@ DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,tikolu.net
 DOMAIN-SUFFIX,pikpak.site
 DOMAIN-SUFFIX,pikpak.io
+DOMAIN-SUFFIX,mozilla.com
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,mozilla.org
+DOMAIN-SUFFIX,mozilla.net
 
 # Domestic
 DOMAIN-SUFFIX,oxycontinon.com
@@ -19,6 +23,7 @@ DOMAIN-SUFFIX,huangguaba.com
 DOMAIN-SUFFIX,huanggua8.com
 DOMAIN-SUFFIX,20230618.xyz
 DOMAIN-SUFFIX,10640.com
+DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,iherb.com
 DOMAIN-SUFFIX,4kcz.com
 DOMAIN-SUFFIX,bjxah.com
@@ -56,7 +61,7 @@ DOMAIN-SUFFIX,1234cdn.com
 DOMAIN-SUFFIX,1000qm.vip
 DOMAIN-SUFFIX,hhjd.mobi
 DOMAIN-SUFFIX,rn252.xyz
-DOMAIN,xluuss.com
+DOMAIN-SUFFIX,xluuss.com
 DOMAIN-SUFFIX,xlzyd.com
 
 # NSFW
@@ -87,13 +92,16 @@ DOMAIN-SUFFIX,cilixiong.org
 DOMAIN-SUFFIX,cilixiong.cc
 DOMAIN-SUFFIX,cilixiong.uk
 DOMAIN-SUFFIX,cilixiong.xyz
+DOMAIN-SUFFIX,gimytv.biz
 #DOMAIN-SUFFIX,gazes.store
+DOMAIN-SUFFIX,duoduozhuiju.com
+DOMAIN-SUFFIX,dduotv01.top
+DOMAIN-SUFFIX,323433ssdfd.top
+DOMAIN-SUFFIX,xds2435u23422342342u.top
+DOMAIN-SUFFIX,duoduosdf12223234334.top
 DOMAIN-SUFFIX,xgplay4.com
 DOMAIN-SUFFIX,dytt-hot.com
 DOMAIN-SUFFIX,qwen.ai
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,mozilla.org
-DOMAIN-SUFFIX,mozilla.net
 
 # Software
 DOMAIN-SUFFIX,ax1x.com
