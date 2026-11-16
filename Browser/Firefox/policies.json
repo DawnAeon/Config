@@ -47,7 +47,7 @@
         "allowed_origins": [
           "https://imagine.apps.gevernova.com"
         ]
-      }，
+      },
       {
         "protocol": "globalprotectcallback",
         "allowed_origins": [
