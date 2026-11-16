@@ -47,6 +47,13 @@
         "allowed_origins": [
           "https://imagine.apps.gevernova.com"
         ]
+      }，
+      {
+        "protocol": "globalprotectcallback",
+        "allowed_origins": [
+          "https://sra.gevernova.cn",
+          "https://sra.gevernova.com"
+        ]
       }
     ],
     "CaptivePortal": false,
